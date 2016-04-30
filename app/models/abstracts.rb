@@ -102,10 +102,8 @@ class Abstract < Sequel::Model
     case type
     when 'session'
       return 'primary'
-    when 'workshop'
+    when 'tutorial'
       return 'success'
-    when 'lightning'
-      return 'warning'
     else
       return 'default'
     end

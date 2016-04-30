@@ -35,6 +35,7 @@
         <%= abstract[:my_score] %>
       <% end %>
       </span>
+      <span class="type label-<%= Abstract.type_label(abstract.type) %>"><%= abstract.type %></span>
       <a href="/abstracts/<%= abstract.id %>"><%= abstract.title %></a><span class="author hidden"> by <%= abstract[:speaker] %></span>
     </li>
     <% end %>
