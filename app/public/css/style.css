@@ -81,7 +81,7 @@ ul.abstracts li span.score {
 
 ul.abstracts li span.type {
   display: inline-block;
-  min-width: 50px;
+  min-width: 70px;
   margin-right: 10px;
   border-radius: 15px;
   font-family: sans-serif;
