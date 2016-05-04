@@ -56,9 +56,11 @@
   });
 </script>
 
+<% if user_is_admin? %>
 <script>
   // Hidden key combo for revealing authors
   jwerty.key('alt+a', function() {
     $('span.author').toggleClass('hidden');
   });
 </script>
+<% end %>

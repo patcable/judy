@@ -55,11 +55,15 @@
           <% end %>
         <% end %>
       </span>
+<<<<<<< Updated upstream
       <a href="/abstracts/<%= abstract.id %>"><%= abstract.title %></a><span class="author"> by <a href="mailto:<%= abstract[:email] %>"><%= abstract[:speaker] %></a></span><br>
       <% abstract[:scores].each do |review| %>
         <% next if review[:comment].empty? %>
         <span class="comment"><strong><%= review[:judge] %>:</strong>  <%= review[:comment] %></span><br>
       <% end %>
+=======
+      <a href="/abstracts/<%= abstract.id %>"><%= abstract.title %></a><% if user_is_admin? %><span class="author"> by <a href="mailto:<%= abstract[:email] %>"><%= abstract[:speaker] %></a></span><% end %>
+>>>>>>> Stashed changes
     </li>
     <% end %>
   </ul>
