@@ -79,6 +79,17 @@ ul.abstracts li span.score {
   color: #fff;
 }
 
+ul.abstracts li span.score-accept {
+  display: inline-block;
+  min-width: 50px;
+  margin-right: 10px;
+  background: #5cb85c;
+  border-radius: 15px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
 ul.abstracts li span.type {
   display: inline-block;
   min-width: 70px;
