@@ -104,6 +104,8 @@ class Abstract < Sequel::Model
       return 'primary'
     when 'tutorial'
       return 'success'
+    when 'workshop'
+      return 'info'
     else
       return 'default'
     end
