@@ -92,7 +92,7 @@ ul.abstracts li span.score-accept {
 
 ul.abstracts li span.type {
   display: inline-block;
-  min-width: 70px;
+  min-width: 80px;
   margin-right: 10px;
   border-radius: 15px;
   font-family: sans-serif;
