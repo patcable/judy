@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Judy</title>
+    <% if defined?(abstract.title) && (abstract.title != '') %>
+    <title>LISA16 Judy: <%= abstract.title %></title>
+    <% else %>
+    <title>LISA16 Judy</title>
+    <% end %>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/vendor/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="/css/vendor/bootstrap-slider.min.css" type="text/css" rel="stylesheet">
